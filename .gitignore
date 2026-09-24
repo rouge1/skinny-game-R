@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+
+# Local OpenCode runtime dependencies and generated records.
+.opencode/node_modules/
+.opencode/package.json
+.opencode/package-lock.json
+.opencode/bun.lock
+.opencode/data/
+.opencode/out/
+.opencode/prompts/
+.opencode/specs/
